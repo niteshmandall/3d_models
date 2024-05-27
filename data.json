@@ -1,0 +1,204 @@
+{
+  "id": null,
+  "building": {
+    "id": "building_0001",
+    "name": null,
+    "address": {
+      "fullAddress": "Sai Krupa Elite, Saikrupa Elite, BAGMANE CONSTELLATION BUSINESS PARK, Ferns City Road, Ferns City, Doddanekkundi, Bengaluru, Karnataka 560037, India",
+      "roadAddress": "Sai Krupa Elite, Saikrupa Elite, BAGMANE CONSTELLATION BUSINESS PARK, Ferns City Road, Ferns City, Doddanekkundi, Bengaluru, Karnataka 560037, India"
+    },
+    "floors": [
+      "1F"
+    ],
+    "images": [
+      {
+        "floor": "1",
+        "width": 957,
+        "height": 957,
+        "url": null
+      }
+    ],
+    "buildingType": null,
+    "type": "손그림",
+    "size": 185.806091,
+    "scale": 0,
+    "geolocation": null
+  },
+  "floors": [
+    {
+      "name": "1F",
+      "rooms": [
+        {
+          "id": "Room_001",
+          "plane": {
+            "id": "Plane_001",
+            "coordinates": [
+              [384, 0, 196],
+              [512, 0, 196],
+              [512, 0, 420],
+              [384, 0, 420]
+            ]
+          },
+          "walls": [
+            {
+              "id": "Walls_001",
+              "coordinates": [
+                [384, 36, 196],
+                [512, 36, 196]
+              ]
+            },
+            {
+              "id": "Walls_002",
+              "coordinates": [
+                [512, 36, 196],
+                [512, 36, 420]
+              ]
+            },
+            {
+              "id": "Walls_003",
+              "coordinates": [
+                [512, 36, 420],
+                [384, 36, 420]
+              ]
+            },
+            {
+              "id": "Walls_004",
+              "coordinates": [
+                [384, 36, 420],
+                [384, 36, 196]
+              ]
+            }
+          ],
+          "properties": {
+            "category": "UNKNOWN",
+            "name": null,
+            "visible": true,
+            "color": "85DCE0"
+          }
+        },
+        {
+          "id": "Room_002",
+          "plane": {
+            "id": "Plane_002",
+            "coordinates": [
+              [180, 0, 196],
+              [384, 0, 196],
+              [384, 0, 420],
+              [180, 0, 420]
+            ]
+          },
+          "walls": [
+            {
+              "id": "Walls_005",
+              "coordinates": [
+                [180, 36, 196],
+                [384, 36, 196]
+              ]
+            },
+            {
+              "id": "Walls_006",
+              "coordinates": [
+                [384, 36, 196],
+                [384, 36, 420]
+              ]
+            },
+            {
+              "id": "Walls_007",
+              "coordinates": [
+                [384, 36, 420],
+                [180, 36, 420]
+              ]
+            },
+            {
+              "id": "Walls_008",
+              "coordinates": [
+                [180, 36, 420],
+                [180, 36, 196]
+              ]
+            }
+          ],
+          "properties": {
+            "category": "UNKNOWN",
+            "name": null,
+            "visible": true,
+            "color": "8AC2FF"
+          }
+        }
+      ],
+      "openings": [
+        {
+          "id": "Door_001",
+          "properties": {
+            "category": "DOOR",
+            "groups": [
+              "Group_001"
+            ],
+            "visible": true
+          },
+          "coordinates": [
+            [512, 36, 300],
+            [512, 36, 284]
+          ]
+        },
+        {
+          "properties": {
+            "category": "DOOR",
+            "groups": [
+              "Group_001"
+            ],
+            "visible": true
+          },
+          "coordinates": [
+            [512, 36, 360],
+            [512, 36, 344]
+          ]
+        },
+        {
+          "id": "Window_001",
+          "properties": {
+            "category": "WINDOW",
+            "groups": [
+              "Group_002"
+            ],
+            "visible": true
+          },
+          "coordinates": [
+            [432, 36, 420],
+            [448, 36, 420]
+          ]
+        }
+      ],
+      "objects": [
+        {
+          "id": "Object_001",
+          "coordinates": {
+            "position": [406, 0, 238],
+            "size": [0, 0, 0],
+            "rotation": [0, 0, 0]
+          },
+          "properties": {
+            "resourceId": "0043",
+            "visible": true
+          }
+        },
+        {
+          "id": "Object_002",
+          "coordinates": {
+            "position": [274, 0, 334],
+            "size": [0, 0, 0],
+            "rotation": [0, 0, 0]
+          },
+          "properties": {
+            "resourceId": "0015",
+            "visible": true
+          }
+        }
+      ],
+      "properties": {
+        "color": "000000",
+        "scale": 100,
+        "generationMethod": "HAND_DRAWING"
+      }
+    }
+  ]
+}
